@@ -1,5 +1,11 @@
-function Header() {
-  return <img src="/img/header.png" alt="org" />;
-}
+import "./Header.css";
 
-export default Header;
+export function Header() {
+  return (
+    <>
+      <header className="header">
+        <img src="../../img/header.png" alt="Org" />
+      </header>
+    </>
+  );
+}

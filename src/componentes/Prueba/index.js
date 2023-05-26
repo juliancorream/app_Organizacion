@@ -1,0 +1,1 @@
+import "../Prueba/index.css"
